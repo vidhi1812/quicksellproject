@@ -22,7 +22,7 @@ export const selectData = (group, allTickets, orderValue) => async (dispatch) =>
         let arr = [], selectedData = [];
 
         if(group === 'status'){
-            allTickets.forEach((elem) => {m
+            allTickets.forEach((elem) => {
                 mySet.add(elem.status);
             })
     
